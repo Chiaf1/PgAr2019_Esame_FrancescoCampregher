@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"Game","c":"StructGame","l":"game()"},{"p":"Game","c":"StructGame","l":"StructGame()","url":"%3Cinit%3E()"}]

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map title="Mappa base" size="14">
+    <!--
+    Programma Arnaldo 2019 - Esame
+    File XML di testing per il modulo A2 - nucleo 1
+    Il seguente documento è stato prodotto da Flavio Giordani e Paolo Faustini per lo Student Branch IEEE dell'Università degli Studi di Brescia.
+    -->
+    <cell id="0" type="initial">
+        <link to="1"/>
+    </cell>
+    <cell id="1" type="normal">
+        <link to="2"/>
+    </cell>
+    <cell id="2" type="branch">
+        <option to="3">
+            <condition value="1" />
+            <condition value="2" />
+        </option>
+        <option to="4">
+            <condition value="4" />
+            <condition value="6" />
+        </option>
+        <option to="5">
+            <condition value="3" />
+            <condition value="5" />
+        </option>
+    </cell>
+    <cell id="3" type="normal">
+        <link to="6"/>
+    </cell>
+    <cell id="4" type="branch">
+        <option to="7">
+            <condition value="1" />
+            <condition value="3" />
+            <condition value="5" />
+        </option>
+        <option to="12">
+            <condition value="2" />
+            <condition value="4" />
+            <condition value="6" />
+        </option>
+    </cell>
+    <cell id="5" type="normal">
+        <link to="8"/>
+    </cell>
+    <cell id="6" type="branch">
+        <option to="9">
+            <condition value="1" />
+            <condition value="2" />
+            <condition value="3" />
+        </option>
+        <option to="10">
+            <condition value="4" />
+            <condition value="5" />
+            <condition value="6" />
+        </option>
+    </cell>
+    <cell id="7" type="normal">
+        <link to="11"/>
+    </cell>
+    <cell id="8" type="normal">
+        <link to="11"/>
+    </cell>
+    <cell id="9" type="normal">
+        <link to="13"/>
+    </cell>
+    <cell id="10" type="normal">
+        <link to="7"/>
+    </cell>
+    <cell id="11" type="normal">
+        <link to="12"/>
+    </cell>
+    <cell id="12" type="normal">
+        <link to="13"/>
+    </cell>
+    <cell id="13" type="end" />
+</map>
